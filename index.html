@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Screen Studios</title>  
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bg-black">
+    <header>
+        <!-- nav -->
+        <div class="imageslider">
+          <nav class="flex justify-between items-center">
+            <!-- logo -->
+           <div class="md:flex md:justify-between md:items-center">
+            <img class="w-12 md:w-20 mx-4 md:mx-12 mt-4 " src="/7screenstudio/img/logo-seven-screen-studios.png"alt="">
+
+            </div>
+
+            <!-- menubar -->
+           <div class="nav-links duration-500 absolute  min-h-[60vh] left-0 top-[9%] w-full"> 
+            <ul class="flex md:flex-row flex-col items-center mx-12 md:gap-[3vw] gap-5 justify-end mt-[-22px] mr-16 text-slate-100">
+              <li class=" my-6 md:my-0  text-yellow-500 underline underline-offset-4"><a href="#"></a><b>HOME</b></li>
+              <li class=" hover:text-yellow-500 hover:underline underline-offset-4"><a href="#"></a><b>ABOUT US</b></li>
+              <li class=" hover:text-yellow-500 hover:underline underline-offset-4"><a href="#"></a><b>MOVIES</b></li>
+              <li class=" hover:text-yellow-500 hover:underline underline-offset-4"><a href="#"></a><b>MUSIC</b></li>
+              <li class=" hover:text-yellow-500 hover:underline underline-offset-4"><a href="#"></a><b>CONTACT US</b></li>
+            </ul>
+            </div> 
+            
+            <div class="flex items-center">
+              <ion-icon onclick="ontogglemenu(this)" name="close" class="justify-end text-4xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+             
+          </nav>
+          
+        </div>  
+
+
+        </header>
+ 
+        <!-- secondpage -->
+
+          <div class="">
+          <h1 class="text-4xl text-center my-12 text-slate-100"><b>LATEST</b> <span class="text-yellow-300"><b>VIDEOS</b></span></h1>
+
+          <div class="flex justify-center relative">
+            <!-- <video class="h-5/6' w-9/12" src="/7screenstudio/y2mate.com - Uzhavan Express Train Carries Varisu Thalapathy Vijay Varisu VarisuPongal_1080p.mp4"  poster="/7screenstudio/img/Varisu.jpg"  controls></video>
+            <i class="my-72 fa fa-youtube-play absolute" style="font-size:48px;color:red" aria-label="play"></i> -->
+            <iframe width="75%" height="400vh" src="https://www.youtube-nocookie.com/embed/UTiXQcrLlv4?start=32" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+          </div>
+          </div>
+
+          <!-- movieshowcase -->
+
+          <div class="py-32">
+          <div class="flex justify-around  md:py-12 sm:text-2xl">
+            <h1 class="text-2xl lg:text-4xl my-4  text-slate-100"><b>MOVIE</b> <span class="text-yellow-300"><b>SHOWCASE</b></span></h1>
+            <button class="h-12 w-36 sm:w-44 text-sm  md:my-2 sm:text-lg md: md:h-12 bg-yellow-300 hover:bg-black hover:text-white text-black  py-2 px-6 rounded border-2 hover:border-yellow-500 ...">VIEW ALL</button>
+          </div>
+
+          <div class="flex w-full text-center ">
+            <div class="w-full h-screen  bg-cover bg-no-repeat" style="background-image: url(img/cobra.jpg);">
+            
+            </div>
+           
+
+            <div class="md:w-full sm:h-screen bg-cover bg-center bg-no-repeat overflow-hidden" style="background-image: url(/Tailwind/7screenstudio/img/kaathuvakula.jpg);">
+             
+            </div>
+
+            <div class="lg:w-full h-screen bg-cover bg-center bg-no-repeat" style="background-image: url(/Tailwind/7screenstudio/img/sarbath.jpg);"> 
+            </div>
+
+             <div class="lg:w-full h-screen bg-cover bg-center bg-no-repeat" style="background-image: url(/Tailwind/7screenstudio/img/Mahaan.jpg);">
+              
+            </div> 
+          </div>
+
+          </div>
+
+          <!-- footer -->
+
+          <div class="footer">
+            
+            <h1 class="text-lg sm:text-4xl text-center text-slate-100"><b>LATEST</b> <span class="text-yellow-300"><b>TWEETS</b></span></h1>
+
+            <div class="sm:my-56 ">
+            <div class="flex my-12 xl:mx-56 justify-center sm:my-14">
+
+              <div class="my-2">
+              <img class="sm:mx-4  2xl:w-48 md:w-44 sm:w-48 lg:w-32 xl:w-48 mx-2 w-56" src="/7screenstudio/img/logo-seven-screen-studios.png" width="" alt="">
+              </div>
+
+              <div class="2xl:mx-20 2xl:my-4 mx-4 xl:mx-12 sm:mx-24 2xl:text-xl  text-slate-100">
+                <h4 class=""><b>Seven Screen Studio</b></h4>
+                <p class="my-2 text-sm:text-lg 2xl:text-lg md:text-lg">Seven screen studio is an independent production and distribution company based in Chennai. Seven screen studio’s goal is to create quality films for the audience with the right emotion, creativity, and technology.</p>
+              </div>
+            </div>
+
+            <div class="text-slate-100 mx-4 my-12 sm:text-xl xl:mx-56 flex">
+              <h4 class="my-2 2xl:mx-4 "><b>Follow Us</b></h4>
+
+              <!-- logo -->
+              <div class="flex mx-4 sm:mx-12">
+              <div class="sm:mx-4 text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellow-300  duration-300 ...">
+                <i class="fa fa-twitter"></i>
+              </div>
+              <div class="sm:mx-4 mx-6 text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellow-300  duration-300 ...">
+                <i class="fa fa-instagram"></i>
+              </div>
+              <div class="sm:mx-4 text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-yellow-300  duration-300 ...">
+                <i class="fa fa-youtube-play"></i>
+              </div>    
+            </div>
+            </div>
+
+            <div class=" mx-4">
+              <div class="flex text-slate-100 sm:text-xl  text- sm:my-8 xl:mx-56">
+                <h4><b>Reach Us</b></h4>
+
+                <div class="sm:mx-8 sm:text-base">
+                  <h4 class="underline mx-8"><i><b>Address</b></i></h4>
+                  <p class="my-1 mx-8">#No.37/4, Potters St, Periyapet, Saidapet, Chennai, Tamil Nadu 600015.</p>
+
+
+                <div class="sm:text-base sm:mx-4 sm:my-8 my-8">
+                  <h4 class="underline mx-4"><i><b>Email</b></i></h4>
+                  <p class="my-1 mx-4 hover:text-yellow-300">info7screenstudio@gmail.com</p>
+                </div>
+
+                </div>
+          
+              </div>
+              
+              </div>
+            </div>
+          </div>
+
+          <script>
+            const navlinks = document.querySelector('.nav-links')
+            function ontogglemenu(e){
+              e.name = e.name === 'close' ? 'menu' : 'close'
+              navlinks.classList.toggle('top-[-100%]')
+            }
+          </script>
+</body>
+</html>   
